@@ -13,7 +13,7 @@ import thunk from "redux-thunk";
 import rootReducer from './redux/reducers/rootReducer';
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
-document.title = 'Anakim';
+document.title = 'TMP';
 const app = (
     <Provider store={store}>
         <BrowserRouter>
