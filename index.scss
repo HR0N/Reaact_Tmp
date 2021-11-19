@@ -5,17 +5,14 @@ body, html, * {
   ::-webkit-scrollbar {
     width: 4px;
   }
-
   /* Track */
   ::-webkit-scrollbar-track {
     background: #b6c9ff;
   }
-
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #222431;
   }
-
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
