@@ -11,6 +11,7 @@ import {BrowserRouter} from "react-router-dom";
 import {createStore, applyMiddleware} from "redux";
 import thunk from "redux-thunk";
 import rootReducer from './redux/reducers/rootReducer';
+import 'h-bootstrap/h-boobstrap.css';
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 document.title = 'TMP';
